@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    background-color: #D4BEE4;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+aside {
+    width: 300px;
+    padding: 20px;
+    background-color: #D4BEE4;
+    border-right: 1px solid #9B7EBD;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag {
+    background-color: #EEEDEB;
+    border-radius:25 px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tag:hover {
+    background-color: #9B7EBD;
+}
+
+main {
+    flex-grow: 1;
+    padding: 15px;
+    background-color: #EEEEEE;
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
+}
+
+.post-card {
+    padding: 15px;
+    border-bottom: 2px solid #9e81aa;
+    margin-bottom: 50px;
+}
+
+.post-body {
+    color: #000000;
+    font-weight: bold;
+}
+
+.post-tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.post-tag {
+    background-color: #CAEDFF;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.post-tag:hover{
+    background-color: #D4BEE4;
+    width: 10svw;
+}
+
+
+.data {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    color: #252525;
+}
+.views{
+    color: #41b6ca;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
+}
+.likes{
+    color: #7e1010;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
+}
+.dislikes{
+    color: #2f1f49;
+    box-shadow: 0px 0px 5px rgba(211, 149, 149, 0.733);
+}
+
+footer {
+    padding: 10px;
+    background-color: #cda5d6;
+    color: #110f0f;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
